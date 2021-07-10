@@ -45,12 +45,20 @@ Try
 
 ![image](https://user-images.githubusercontent.com/81870774/125153800-dff81c00-e173-11eb-8186-70cdf0263691.png)
 
-![image](https://user-images.githubusercontent.com/81870774/125153892-7c222300-e174-11eb-803c-c51ce55bea73.png)
+![image](https://user-images.githubusercontent.com/81870774/125153982-2306bf00-e175-11eb-84d2-5847653891b3.png)
 
     > For "App Icon" select the logo which you copied earlier.
+    
     > For the "App Name" you can give any Name you want.
+    
     > For the "Title" you can give any title for HEADING.
+    
     > For the "Description" you can give any message you want to give to the victim.
+    
+    > For the "Unlock Key" give the key which the victim can use to unlock the device.
+    
+    > HIT ENTER and you APP will be created byt the given name in the SARA Directory.
+    
   
     
 # Disclaimer :
