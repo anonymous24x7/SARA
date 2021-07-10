@@ -63,9 +63,9 @@ Try
     
 # Disclaimer :
 
-Please use this code at your own risk and NEVER TRY IT ON A WEBSITE YOU DON'T HAVE PERMISSION FROM 
+Please use this Tool at your own risk !!
 
-I REPEAT NEVER.
+I am not reponsible for any destruction or damage caused by hte TOOL.
 
 
 
