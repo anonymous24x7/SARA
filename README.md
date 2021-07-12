@@ -63,6 +63,11 @@ Try
     
     > HIT ENTER and you APP will be created byt the given name in the SARA Directory.
     
+# Screenshots :
+
+![image](https://user-images.githubusercontent.com/81870774/125305739-39b33e80-e34c-11eb-85b2-7432894b44ad.png)
+
+![sara1](https://user-images.githubusercontent.com/81870774/125305759-3fa91f80-e34c-11eb-80a2-6d480f1b0856.png)
   
     
 # Disclaimer :
