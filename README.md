@@ -19,9 +19,9 @@ A simple to use Android Ransomware Generator which is very easy to use.
 
     $ cd SARA
 
-    $ chmod +x setup.sh sara.py
+    $ chmod +x setup sara.py
 
-    $ bash setup.sh
+    $ bash setup
 
 
 
