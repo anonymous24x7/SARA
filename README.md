@@ -43,7 +43,7 @@ Try
 
 # Usage :
 
-    > First move your logo to the SARA directory then ope a terminal and type :- 
+    > First move your logo to the SARA directory then open a terminal and type :- 
     
     $ python3 sara.py
 
