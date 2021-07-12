@@ -31,9 +31,13 @@ Try
 
      $ sudo apt install python python2 python3
 
-     $ sudo apt update
+     $ sudo apt-get update -y
 
-     $ sudo apt upgrade
+     $ sudo apt-get upgrade -y
+     
+     $ sudo apt update -y
+     
+     $ sudo apt upgrade -y
 
 
 
