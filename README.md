@@ -43,9 +43,9 @@ Try
     
     $ python3 sara.py
 
-![image](https://user-images.githubusercontent.com/81870774/125153800-dff81c00-e173-11eb-8186-70cdf0263691.png)
+![sara1](https://user-images.githubusercontent.com/81870774/125302080-42eedc00-e349-11eb-9a95-0e1ef0e1497e.png)
 
-![image](https://user-images.githubusercontent.com/81870774/125153982-2306bf00-e175-11eb-84d2-5847653891b3.png)
+![sara2](https://user-images.githubusercontent.com/81870774/125302114-4bdfad80-e349-11eb-9b00-241cf2b3121f.png)
 
     > For "App Icon" select the logo which you copied earlier.
     
