@@ -1,6 +1,6 @@
 # SARA_2.0
 
-A simple to use Android Ransomware Generator which is very easy to use.
+A simple to use Android Ransomware Generating Tool.
 
 
 # Tested On :- 
